@@ -307,3 +307,51 @@ nav.navbar{
      margin-top: .6rem;
      font-size: .9rem;
  }
+
+ /*============
+ Footer Part
+ =============*/
+ #footer{
+     padding: 3rem 0rem;
+     text-align: center;
+     background: #0A0826;
+     position: relative;
+ }
+ .footer-container .footer__title {
+     color: #fff;
+     font-weight: bold;
+     font-size: 28px;
+     line-height: 36px;
+ }
+ .footer-container .copyright {
+     font-weight: normal;
+     font-size: 14px;
+     line-height: 24px;
+     margin: .5rem 0rem;
+     color: rgba(255, 255, 255, 0.933);
+ }
+
+ .footer-container .social-icon{
+     display: flex;
+     align-items: center;
+     position: relative;
+     justify-content: center;
+ }
+ .social-icon a{
+     display: block;
+     font-size: 1.4rem;
+     width: 35px;
+     height: 35px;
+     line-height: 35px;
+     text-align: center;
+     background: #5d5d5d31;
+     margin: .4rem;
+     border-radius: 50%;
+     transition: all 0.3s ease;
+ }
+ .social-icon a:hover{
+     transform: translateY(5px);
+ }
+ .social-icon i{
+     color: #fff;
+ }
