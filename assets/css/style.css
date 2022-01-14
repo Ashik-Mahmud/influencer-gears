@@ -355,3 +355,66 @@ nav.navbar{
  .social-icon i{
      color: #fff;
  }
+
+ /* Call to Action  */
+ .cta{
+     text-align: center;
+     position: relative;
+     margin: 4em auto;
+ }
+ .cta-container{
+     background: rgb(139, 13, 59);
+     background: linear-gradient(90deg, rgba(139, 13, 59, 1) 0%, rgba(204, 7, 78, 1) 35%, rgba(163, 86, 114, 1) 100%);
+     padding: 4rem;
+    box-shadow: 4.5px 4.5px 3.6px rgba(0, 0, 0, 0.024),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    30.1px 30.1px 24.1px rgba(0, 0, 0, 0.046),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+
+ }
+ .cta-title{
+     margin: .5rem 0rem;
+     color: #fff;
+     font-weight: 500;
+     font-size: 2rem;
+ }
+ .cta-subtitle{
+     color: #fff;
+     font-weight: bold;
+     margin-bottom: 1rem;
+ }
+.cta-content{
+    width: 500px;
+    margin: auto;
+    
+}
+ .cta-content .fields{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+    background: #fff;
+    padding: .2rem;
+    border-radius: 50px;
+ }
+ .fields input{
+     width: 70%;
+     font-family: poppins;
+     border: none;
+     outline: none;
+     font-size: 1rem;
+     padding-left: 1rem;
+ }
+ .fields button{
+     width: 30%;
+     position: relative;
+     background: #d6346f;
+     color: #fff;
+     border: none;
+     outline: none;
+     padding: .8rem;
+     font-family: poppins;
+     cursor: pointer;
+     border-radius: 50px;
+     }

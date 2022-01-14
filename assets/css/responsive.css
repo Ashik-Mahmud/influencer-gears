@@ -3,7 +3,7 @@
 
 /* Media for Brekpoint Laptop And Desktop */
 @media (max-width: 1200px) {
-    .container{
+    .container {
         max-width: 100%;
         padding: 0rem 1rem;
     }
@@ -12,7 +12,7 @@
 
 /* Media for Brekpoint Tab/Kindle */
 @media (max-width: 992px) {
-    .primary-menu{
+    .primary-menu {
         display: block;
         position: fixed;
         right: -100%;
@@ -22,64 +22,79 @@
         background: #fff;
         padding: 2rem;
         box-shadow: 0px 12.5px 10px #00010021,
-        0px 100px 80px #0000000d;
+            0px 100px 80px #0000000d;
         transition: right 0.3s ease-out;
+        z-index: 4;
 
     }
-    #checkbox:checked ~ .primary-menu{
+
+    #checkbox:checked~.primary-menu {
         right: 0%;
     }
-    .primary-menu ul{
+
+    .primary-menu ul {
         flex-direction: column;
     }
-    .primary-menu ul li{
+
+    .primary-menu ul li {
         padding-bottom: 1rem;
     }
-    .primary-menu ul li:last-child a{
+
+    .primary-menu ul li:last-child a {
         display: none;
     }
+
     .navbar .humberger {
         display: block;
     }
-    .cart{
+
+    .cart {
         display: block;
     }
 
     /* hero  */
-   .hero-content .hero-text {
+    .hero-content .hero-text {
         width: 55%;
     }
- .hero-content .hero-image {
-     width: 40%;
- }
 
+    .hero-content .hero-image {
+        width: 40%;
+    }
+
+    .cta {
+        margin-bottom: 2rem;
+    }
 }
+
 /* Media for Brekpoint mini tab */
 @media (max-width: 868px) {
-    .products-content{
+    .products-content {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
 /* Media for Brekpoint mini tab */
 @media (max-width: 768px) {
-    .hero-content{
+    .hero-content {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding-top: 2rem;
     }
-    .hero-content .hero-text{
+
+    .hero-content .hero-text {
         width: 100%;
         order: 2;
     }
-    .hero-content .hero-image{
+
+    .hero-content .hero-image {
         width: 60%;
         margin-bottom: 5rem;
         order: 1;
     }
 
     /* .logos  */
-    .logos-content{
+    .logos-content {
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 2rem;
         justify-content: center;
@@ -87,26 +102,52 @@
         text-align: center;
     }
 
+    .cta {
+        margin-bottom: 2rem;
+    }
+
+    .cta-content {
+        width: 100%;
+
+    }
+
+    .cta-container {
+        padding: 3rem;
+
+    }
 }
 
 /* Media for Brekpoint Mobile */
 @media (max-width: 668px) {
-    .hero-text{
+    .hero-text {
         text-align: center;
     }
-    .hero-text .hero-text__title{
+
+    .hero-text .hero-text__title {
         font-size: 2rem;
         line-height: 1.5;
     }
-      .hero-content .hero-image {
-          width: 100%;
-          margin-bottom: 3rem;
-          order: 1;
-      }
-      .products-title h1{
-          font-size: 1.5rem;
-      }
-      .products-content {
-          grid-template-columns: repeat(1, 1fr);
-      }
+
+    .hero-content .hero-image {
+        width: 100%;
+        margin-bottom: 3rem;
+        order: 1;
+    }
+
+    .products-title h1 {
+        font-size: 1.5rem;
+    }
+
+    .products-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .cta-container{
+        padding: 1rem;
+    }
+    .cta-title{
+        font-size: 1.4rem;
+    }
+    .fields button{
+        width:50%;
+    }
 }
